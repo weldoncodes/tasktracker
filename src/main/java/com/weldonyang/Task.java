@@ -37,8 +37,4 @@ public class Task {
     public void completeTask() {
         this.status = TaskStatus.COMPLETED;
     }
-
-
-
-
 }
