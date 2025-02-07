@@ -1,0 +1,24 @@
+Basic Task Structure:
+    mandatory
+        - id
+        - description
+        - status
+            - not_started
+            - in_progress
+            - completed
+    optional
+        - deadline
+        - current duration
+            - how long you've since started the task
+            - only works if task is in progress
+            - in days and hours
+        - priority
+        - grouping
+
+
+task manager:
+    - changes status
+    - get all tasks
+    - get info on specific task
+        -
+    -
