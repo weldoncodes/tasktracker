@@ -18,7 +18,7 @@ Basic Task Structure:
         - grouping
 
     attributes:
-        - id,
+        - id
         - description
         - status
         - deadline
@@ -26,12 +26,17 @@ Basic Task Structure:
             - allows to calculate taskDuration (how long user has been working on it) -> calculate this currentTime-startTime
         - priority (LOW [default], MEDIUM, HIGH)
         - deadline
+        -
 
 
 task manager:
     - changes status
+        - start tasks
+        - complete tasks
+        - delete tasks
     - get all tasks
     - get info on specific task
         -
     - reminder of tasks due in the next 2 days (auto show on startup)
-    -
+    - get tasks due in the next N days
+    - get in progress tasks
