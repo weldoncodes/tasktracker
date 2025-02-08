@@ -6,14 +6,26 @@ Basic Task Structure:
             - not_started
             - in_progress
             - completed
-    optional
         - deadline
+            - forces user to set deadlines for themselves
+    optional
+
         - current duration
-            - how long you've since started the task
+            - how long since user started the task
             - only works if task is in progress
             - in days and hours
         - priority
         - grouping
+
+    attributes:
+        - id,
+        - description
+        - status
+        - deadline
+        - start time
+            - allows to calculate taskDuration (how long user has been working on it) -> calculate this currentTime-startTime
+        - priority (LOW [default], MEDIUM, HIGH)
+        - deadline
 
 
 task manager:
@@ -21,4 +33,5 @@ task manager:
     - get all tasks
     - get info on specific task
         -
+    - reminder of tasks due in the next 2 days (auto show on startup)
     -
